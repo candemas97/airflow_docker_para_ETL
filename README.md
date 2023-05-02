@@ -14,7 +14,7 @@ Para ello es requerido realizar los siguientes pasos:
   - plugins
 - Posteriormente, se debe descargar el archivo: **docker-compose.yaml** y ponerlo en la carpeta principal.
 - Por último, se debe descargar el archivo **my_dag.py** e ingresarlo en la carpeta **dags** dentro de este archivo se puede encontrar:
-  - scripts para generar cada tarea solicitada
+  - Scripts para generar cada tarea solicitada
   - DAG para automatización del proceso y secuencia de ejecución.
 
 Para poder ejecutar el programa se debe correr las siguientes líneas en el terminal de la carpeta asociada:
