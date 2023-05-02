@@ -23,8 +23,30 @@ Una vez ejecutado se debe generar la siguinte línea en el terminal:
 
 ```docker-compose up```
 
+
 ## *Cómo modificar de dónde extraer el archivo y donde cargarlo*
 
 Se debe modificar dentro del codigo de python la ruta donde se guarda la data que se analizó y la data generada para que sea cargada a la ruta especificada por el usuario:
 
 Donde menciona ```/File_Location/``` por favor indicar la locación donde desea leer su archivo base y guardar la solución final.
+
+## *Cómo correr el archivo en Airflow*
+
+Para ingresar a la aplicación de Airflow donde se encuentra la solución al proyecto se debe colocar la siguiente ruta en el navegador:
+
+```localhost:8080```
+
+Posterior a ello nos solicitará un usuario y contraseña:
+
+```
+Usario: airflow
+Contraseña: airflow
+```
+
+Una vez allí se debe buscar el proyecto titulado ***ETL*** y al ingresar se puede observar la solución de dos maneras:
+- Automatico diariamente por el sistema.
+- Manual al presionar en un botón de "play" y seleccionando la opción ```Trigger DAG```
+
+De esta forma se puede ejecutar todo el proyecto en cuestión.
+
+
